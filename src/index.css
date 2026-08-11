@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans Telugu', sans-serif;
+  background-color: #FAF6EF;
+  color: #221408;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Fraunces', 'Noto Serif Telugu', serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Subtle wood-grain texture, used sparingly on dark sections */
+.grain-texture {
+  background-image: repeating-linear-gradient(
+    100deg,
+    rgba(255,255,255,0.02) 0px,
+    rgba(255,255,255,0.02) 1px,
+    transparent 1px,
+    transparent 6px
+  );
+}
+
+.section-pad {
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+
+@media (max-width: 640px) {
+  .section-pad {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
