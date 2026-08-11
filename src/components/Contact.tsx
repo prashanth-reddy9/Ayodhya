@@ -6,9 +6,12 @@ export default function Contact() {
   const { lang } = useLanguage()
   const address = lang === 'te' ? business.addressTe : business.addressEn
   const message = lang === 'te' ? business.whatsappMessageTe : business.whatsappMessageEn
-  const mapsSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-    business.addressEn.join(' ')
-  )}`
+  const shopLat = 18.026872
+  const shopLng = 79.504355
+
+
+  const mapsSearchUrl = `https://www.google.com/maps/search/?api=1&query=${shopLat},${shopLng}`
+        
 
   return (
     <section id="contact" className="section-pad bg-charcoal text-cream">
