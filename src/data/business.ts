@@ -6,7 +6,7 @@ export const business = {
   nameEn: 'Ayodhya',
 
   headlineTe: 'సామిల్ & టింబర్ డిపో',
-  headlineEn: 'Samil & Timber Depot',
+  headlineEn: 'Sawmill & Timber Depot',
 
   // Directly from the card: "మా వద్ద ఇండియన్ టేకు, నాన్‌టేకు, పెద్దేగి, మద్ది
   // మొదలగు కర్ర సరసమైన ధరలకు లభించును"

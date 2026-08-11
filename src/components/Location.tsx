@@ -3,8 +3,9 @@ import { business } from '../data/business'
 import { MapPinIcon } from './Icons'
 
 // Confirmed GPS coordinates for the depot: 18°01'35.9"N 79°30'15.8"E
-const shopLat = 18.026643
-const shopLng = 79.504142
+const shopLat = 18.0268511
+const shopLng = 79.5043259
+
 
 const mapsSearchUrl = `https://www.google.com/maps/search/?api=1&query=${shopLat},${shopLng}`
 const mapsEmbedUrl = `https://www.google.com/maps?q=${shopLat},${shopLng}&z=17&output=embed`

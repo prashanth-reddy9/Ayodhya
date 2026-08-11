@@ -33,7 +33,7 @@ export default function About() {
               ) : (
                 <>
                   <p>
-                    Ayodhya Samil & Timber Depot is a local business in Hanumakonda supplying
+                    Ayodhya Sawmill & Timber Depot is a local business in Hanumakonda supplying
                     timber, plywood and related building materials. We focus on
                     providing reliable materials for construction and woodworking
                     requirements at reasonable prices.
