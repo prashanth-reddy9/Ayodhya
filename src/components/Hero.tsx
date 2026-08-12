@@ -2,17 +2,26 @@ import { useLanguage, strings } from '../context/LanguageContext'
 import { business, telLink, whatsappLink } from '../data/business'
 import { PhoneIcon, WhatsAppIcon } from './Icons'
 import timberLog from '../assets/Timber_Log.png'
+import ayodhyaLogoWatermark from '../assets/Ayodhya_logo_transparent.png'
 
 export default function Hero() {
   const { lang } = useLanguage()
   const message = lang === 'te' ? business.whatsappMessageTe : business.whatsappMessageEn
 
   return (
-    <section id="home" className="relative pt-24 md:pt-32 pb-16 md:pb-24 bg-charcoal overflow-hidden">
+    <section id="home" className="relative pt-24 md:pt-32 pb-16 md:pb-24 min-h-[560px] sm:min-h-[600px] md:min-h-[640px] bg-charcoal overflow-hidden">
       <div className="absolute inset-0 opacity-30">
         <img src={timberLog} alt="" className="w-full h-full object-cover" />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-r from-charcoal via-charcoal/95 to-charcoal/60" />
+      <div className="absolute inset-0 bg-gradient-to-r from-charcoal via-charcoal/90 to-charcoal/50" />
+      <div className="absolute inset-0 flex items-center justify-end pr-[2%] pointer-events-none">
+        <img
+          src={ayodhyaLogoWatermark}
+          alt=""
+          aria-hidden="true"
+          className="select-none h-[300px] sm:h-[340px] md:h-[380px] w-auto opacity-20"
+        />
+      </div>
 
       <div className="relative max-w-6xl mx-auto px-5 sm:px-8">
         <div className="max-w-xl">
