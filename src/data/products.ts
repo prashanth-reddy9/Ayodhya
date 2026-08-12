@@ -18,8 +18,8 @@ export const productCategories: ProductCategory[] = [
   },
   {
     id: 'plywood',
-    nameTe: 'ప్లైవుడ్',
-    nameEn: 'Plywood',
+    nameTe: 'కర్ర పలకలు',
+    nameEn: 'Wooden Planks',
     descriptionTe: 'ఫర్నిచర్, ఇంటీరియర్స్ మరియు నిర్మాణ అవసరాలకు నమ్మదగిన ప్లైవుడ్ ఆప్షన్లు.',
     descriptionEn: 'Reliable plywood options for furniture, interiors and construction applications.',
     icon: 'plywood',

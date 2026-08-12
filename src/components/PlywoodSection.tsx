@@ -5,10 +5,11 @@ import timberPlank from '../assets/Timber_Plank.png'
 
 export default function PlywoodSection() {
   const { lang } = useLanguage()
+  
   const message =
     lang === 'te'
-      ? 'నమస్కారం, నేను ప్లైవుడ్ గురించి తెలుసుకోవాలనుకుంటున్నాను.'
-      : 'Hello, I would like to enquire about plywood.'
+      ? 'నమస్కారం, నేను కర్ర పలకలు గురించి తెలుసుకోవాలనుకుంటున్నాను.'
+      : 'Hello, I would like to enquire about Wooden Planks.'
 
   const uses =
     lang === 'te'
@@ -22,15 +23,15 @@ export default function PlywoodSection() {
       </div>
       <div className="bg-wood-100 flex flex-col justify-center px-6 sm:px-10 md:px-14 py-14 md:py-20 md:[direction:ltr]">
         <span className="text-wood-500 text-xs font-semibold tracking-widest uppercase mb-3">
-          {lang === 'te' ? '02 — ప్లైవుడ్' : '02 — Plywood'}
+          {lang === 'te' ? '02 — కర్ర పలకలు' : '02 — Wooden Planks'}
         </span>
         <h2 className="font-display text-3xl sm:text-4xl font-semibold text-wood-800 mb-4">
-          {lang === 'te' ? 'ప్లైవుడ్' : 'Plywood'}
+          {lang === 'te' ? 'కర్ర పలకలు' : 'Wooden Planks'}
         </h2>
         <p className="text-wood-700 leading-relaxed mb-6 max-w-md">
           {lang === 'te'
-            ? 'ఫర్నిచర్, ఇంటీరియర్స్ మరియు నిర్మాణ అవసరాలకు తగిన ప్లైవుడ్ కోసం విచారించండి. మీ అవసరాన్ని తెలియజేస్తే, తగిన ఆప్షన్‌ను సూచిస్తాము.'
-            : 'Enquire about plywood suitable for furniture, interiors and construction. Let us know your requirement and we\u2019ll point you to the right option.'}
+            ? 'ఫర్నిచర్, ఇంటీరియర్స్ మరియు నిర్మాణ అవసరాలకు తగిన కర్ర పలకలు కోసం విచారించండి. మీ అవసరాన్ని తెలియజేస్తే, తగిన ఆప్షన్‌ను సూచిస్తాము.'
+            : 'Enquire about Wooden Planks suitable for furniture, interiors and construction. Let us know your requirement and we\u2019ll point you to the right option.'}
         </p>
         <div className="flex flex-wrap gap-2 mb-8">
           {uses.map((u) => (
